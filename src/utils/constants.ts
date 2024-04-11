@@ -12,7 +12,7 @@ export const SOCIAL_LINKS: Array<ISocialLink> = [
   {
     id: 1,
     icon: "ri:facebook-fill",
-    url: "https://www.facebook.com/profile.php?id=100091997497224",
+    url: "https://www.facebook.com/profile.php?id=61557667301355",
   },
   {
     id: 2,
