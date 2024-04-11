@@ -5,65 +5,65 @@ import {
   INavLink,
   IProfileData,
   IServiceData,
-  ISocialLink
+  ISocialLink,
 } from "./interfaces";
 
 export const SOCIAL_LINKS: Array<ISocialLink> = [
   {
     id: 1,
     icon: "ri:facebook-fill",
-    url: "https://www.facebook.com/profile.php?id=100091997497224"
+    url: "https://www.facebook.com/profile.php?id=100091997497224",
   },
   {
     id: 2,
     icon: "mdi:twitter",
-    url: "https://twitter.com/GreenPlanetEco"
+    url: "https://twitter.com/GreenPlanettoke",
   },
   {
     id: 3,
     icon: "ph:instagram-logo-fill",
-    url: "https://www.instagram.com/greenplaneteco.io/"
+    url: "https://www.instagram.com/green_planeteco/",
   },
   {
     id: 4,
     icon: "ri:linkedin-fill",
-    url: "https://www.linkedin.com/company/green-planet-eco"
-  }
+    url: "https://www.linkedin.com/company/green-planet-eco",
+  },
 ];
 
 export const NAV_BUTTONS: Array<INavButton> = [
   {
     id: 1,
     label: "Home",
-    sectionId: "hero"
+    sectionId: "hero",
   },
   {
     id: 2,
     label: "About",
-    sectionId: "about"
+    sectionId: "about",
   },
   {
     id: 3,
     label: "Vision",
-    sectionId: "vision"
+    sectionId: "vision",
   },
   {
     id: 4,
     label: "Whitepaper",
-    sectionId: "whitepaper"
+    sectionId: "whitepaper",
   },
   {
     id: 5,
     label: "Testimonials",
-    sectionId: "testimonials"
-  }
+    sectionId: "testimonials",
+  },
 ];
 
 export const NAV_LINKS: Array<INavLink> = [
   {
     id: 1,
     label: "Home",
-    path: "/"
+    path: "/",
   },
   {
     id: 2,
@@ -72,67 +72,67 @@ export const NAV_LINKS: Array<INavLink> = [
       {
         id: 7,
         label: "Token",
-        path: "/about/token"
+        path: "/about/token",
       },
       {
         id: 1,
         label: "Campaigns",
-        path: "/about/campaigns"
+        path: "/about/campaigns",
       },
       {
         id: 2,
         label: "Who we are",
-        path: "/about/who-we-are"
+        path: "/about/who-we-are",
       },
       {
         id: 3,
         label: "Company History",
-        path: "/about/company-history"
+        path: "/about/company-history",
       },
       {
         id: 4,
         label: "Our Team",
-        path: "/about/our-team"
+        path: "/about/our-team",
       },
       {
         id: 5,
         label: "Testimonials",
-        path: "/about/testimonials"
+        path: "/about/testimonials",
       },
       {
         id: 6,
         label: "Faq",
-        path: "/about/faq"
-      }
-    ]
+        path: "/about/faq",
+      },
+    ],
   },
   {
     id: 3,
     label: "Learn",
-    path: "/learn"
+    path: "/learn",
   },
   {
     id: 4,
     label: "Carbon Credit",
     path: "/assets/documents/Green Planet Eco - Credit Carbon.pdf",
-    isLinkToOutside: true
+    isLinkToOutside: true,
   },
   {
     id: 5,
     label: "Whitepaper",
     path: "/assets/documents/WHITEPAPER- Green Planet Eco.pdf",
-    isLinkToOutside: true
+    isLinkToOutside: true,
   },
   {
     id: 6,
     label: "News",
-    path: "/news"
+    path: "/news",
   },
   {
     id: 7,
     label: "Contact us",
-    path: "/contact-us"
-  }
+    path: "/contact-us",
+  },
 ];
 
 export const SERVICES: Array<IServiceData> = [
@@ -140,20 +140,20 @@ export const SERVICES: Array<IServiceData> = [
     id: 1,
     title: "Supporting Cause",
     description: "Working towards a greener tomorrow.",
-    imgSrc: "/assets/images/who_we_are_donate.png"
+    imgSrc: "/assets/images/who_we_are_donate.png",
   },
   {
     id: 2,
     title: "Most Trusted One",
     description: "Our work is based on transparency.",
-    imgSrc: "/assets/images/who_we_are_medal.png"
+    imgSrc: "/assets/images/who_we_are_medal.png",
   },
   {
     id: 3,
     title: "Award Won",
     description: "We are working hard to acquire recognition for our cause.",
-    imgSrc: "/assets/images/who_we_are_torch.png"
-  }
+    imgSrc: "/assets/images/who_we_are_torch.png",
+  },
 ];
 
 export const LEARNS: Array<ILearnData> = [
@@ -186,24 +186,24 @@ export const LEARNS: Array<ILearnData> = [
         title: "Conserving natural resources",
         description: `Water is a precious natural resource, and saving it helps to
         ensure its availability for future generations. Conserving water also helps to protect the
-        natural habitats and ecosystems that depend on water.`
+        natural habitats and ecosystems that depend on water.`,
       },
       {
         id: 2,
         title: "Saving money",
         description: `Saving water can result in significant savings on water bills, especially if
         water-efficient appliances and fixtures are used. Reducing water consumption can also lead
-        to lower energy bills as less energy is needed to heat and transport water.`
+        to lower energy bills as less energy is needed to heat and transport water.`,
       },
       {
         id: 3,
         title: "Preventing water shortages",
         description: `Saving water helps to prevent water shortages in areas where
         water is scarce. By conserving water, we can help to ensure that there is enough water to
-        meet the needs of all users, including agriculture, industry, and households.`
-      }
+        meet the needs of all users, including agriculture, industry, and households.`,
+      },
     ],
-    imgSrc: "/assets/images/learn_water.jpg"
+    imgSrc: "/assets/images/learn_water.jpg",
   },
   {
     id: 2,
@@ -238,23 +238,23 @@ export const LEARNS: Array<ILearnData> = [
         id: 1,
         title: "Clean and renewable",
         description: `Wind energy produces no harmful emissions or pollutants and does not
-        require any fuel input, making it an entirely renewable and clean energy source.`
+        require any fuel input, making it an entirely renewable and clean energy source.`,
       },
       {
         id: 2,
         title: "Cost-effective",
         description: `Wind energy has become increasingly cost-effective over time and is now competitive
         with conventional power sources. It can offer long-term cost savings, particularly in areas with good
-        wind resources.`
+        wind resources.`,
       },
       {
         id: 3,
         title: "Reduced greenhouse gas emissions",
         description: `Wind energy produces no greenhouse gas emissions, making it
-        a key contributor to reducing carbon emissions and addressing climate change.`
-      }
+        a key contributor to reducing carbon emissions and addressing climate change.`,
+      },
     ],
-    imgSrc: "/assets/images/learn_wind.jpg"
+    imgSrc: "/assets/images/learn_wind.jpg",
   },
   {
     id: 3,
@@ -291,22 +291,22 @@ export const LEARNS: Array<ILearnData> = [
         title: "Waste reduction",
         description: `Recycling helps to reduce the amount of waste that ends up in landfills or
         incinerators, which can help to reduce greenhouse gas emissions and prevent the contamination of
-        soil and water.`
+        soil and water.`,
       },
       {
         id: 2,
         title: "Energy conservation",
         description: `Recycling can save energy by reducing the need to extract, transport, and
-        process raw materials, which can be energy-intensive.`
+        process raw materials, which can be energy-intensive.`,
       },
       {
         id: 3,
         title: "Cost savings",
         description: `Recycling can be less expensive than sending waste to landfills or incinerators, which
-        can help to reduce the cost of waste disposal for individuals and businesses.`
-      }
+        can help to reduce the cost of waste disposal for individuals and businesses.`,
+      },
     ],
-    imgSrc: "/assets/images/learn_recycling.jpg"
+    imgSrc: "/assets/images/learn_recycling.jpg",
   },
   {
     id: 4,
@@ -335,23 +335,23 @@ export const LEARNS: Array<ILearnData> = [
         title: "Renewable and clean energy",
         description: `Solar panels use energy from the sun, which is a renewable and clean
         energy source. This means that they produce no harmful emissions or pollutants, making them an
-        eco-friendly alternative to traditional fossil fuels.`
+        eco-friendly alternative to traditional fossil fuels.`,
       },
       {
         id: 2,
         title: "Cost-effective",
         description: `The cost of solar panels has decreased significantly over the past few years, making
         them increasingly affordable for homeowners and businesses. They can offer long-term cost savings
-        on electricity bills, especially in areas with high energy costs.`
+        on electricity bills, especially in areas with high energy costs.`,
       },
       {
         id: 3,
         title: "Reduced carbon footprint",
         description: `By using solar panels, homeowners and businesses can significantly
-        reduce their carbon footprint and contribute to mitigating climate change.`
-      }
+        reduce their carbon footprint and contribute to mitigating climate change.`,
+      },
     ],
-    imgSrc: "/assets/images/learn_solar.jpg"
+    imgSrc: "/assets/images/learn_solar.jpg",
   },
   {
     id: 5,
@@ -383,24 +383,24 @@ export const LEARNS: Array<ILearnData> = [
         title: "Carbon sequestration",
         description: `Trees absorb carbon dioxide from the atmosphere through photosynthesis
         and store it in their biomass, helping to mitigate the effects of climate change. Reforestation can
-        therefore help to reduce greenhouse gas emissions and slow the pace of climate change.`
+        therefore help to reduce greenhouse gas emissions and slow the pace of climate change.`,
       },
       {
         id: 2,
         title: "Biodiversity conservation",
         description: `Forests are home to a wide range of plant and animal species, many of
         which are threatened by habitat loss and fragmentation. By restoring forests, we can help to protect
-        and restore these vital ecosystems, promoting biodiversity and preserving wildlife.`
+        and restore these vital ecosystems, promoting biodiversity and preserving wildlife.`,
       },
       {
         id: 3,
         title: "Water conservation",
         description: `Trees help to regulate the water cycle, promoting water infiltration and
         reducing the risk of floods and droughts. They also help to filter and clean water, improving water
-        quality and availability.`
-      }
+        quality and availability.`,
+      },
     ],
-    imgSrc: "/assets/images/learn_reforestation.jpg"
+    imgSrc: "/assets/images/learn_reforestation.jpg",
   },
   {
     id: 6,
@@ -433,23 +433,23 @@ export const LEARNS: Array<ILearnData> = [
         title: "Climate regulation",
         description: `Forests play a vital role in regulating the Earth's climate by absorbing and storing
         carbon dioxide from the atmosphere. Trees absorb carbon dioxide during photosynthesis, which
-        helps to reduce greenhouse gas emissions and mitigate climate change.`
+        helps to reduce greenhouse gas emissions and mitigate climate change.`,
       },
       {
         id: 2,
         title: "Biodiversity conservation",
         description: `Forests are home to an incredible array of plant and animal species. By
-        protecting forests, we can help to preserve these species and maintain biodiversity.`
+        protecting forests, we can help to preserve these species and maintain biodiversity.`,
       },
       {
         id: 3,
         title: "Cultural significance",
         description: `Forests are often deeply rooted in local cultures and traditions. By conserving
-        forests, we can help to preserve these cultural practices and traditions.`
-      }
+        forests, we can help to preserve these cultural practices and traditions.`,
+      },
     ],
-    imgSrc: "/assets/images/learn_forest.jpg"
-  }
+    imgSrc: "/assets/images/learn_forest.jpg",
+  },
 ];
 
 export const PROFILES: Array<IProfileData> = [
@@ -463,14 +463,14 @@ export const PROFILES: Array<IProfileData> = [
       {
         id: 1,
         icon: "mdi:twitter",
-        url: "https://twitter.com/WaldenirMoreira"
+        url: "https://twitter.com/WaldenirMoreira",
       },
       {
         id: 2,
         icon: "jam:linkedin",
-        url: "https://www.linkedin.com/in/waldenir-moreira-b6320290/"
-      }
-    ]
+        url: "https://www.linkedin.com/in/waldenir-moreira-b6320290/",
+      },
+    ],
   },
   {
     id: 2,
@@ -482,9 +482,9 @@ export const PROFILES: Array<IProfileData> = [
       {
         id: 1,
         icon: "mdi:twitter",
-        url: "https://twitter.com/thaynarasilvanz"
-      }
-    ]
+        url: "https://twitter.com/thaynarasilvanz",
+      },
+    ],
   },
   {
     id: 3,
@@ -496,14 +496,14 @@ export const PROFILES: Array<IProfileData> = [
       {
         id: 1,
         icon: "mdi:twitter",
-        url: "https://twitter.com/luanasouza_MK"
+        url: "https://twitter.com/luanasouza_MK",
       },
       {
         id: 2,
         icon: "jam:linkedin",
-        url: "https://www.linkedin.com/in/luana-souza-080556279/"
-      }
-    ]
+        url: "https://www.linkedin.com/in/luana-souza-080556279/",
+      },
+    ],
   },
   {
     id: 4,
@@ -515,14 +515,14 @@ export const PROFILES: Array<IProfileData> = [
       {
         id: 1,
         icon: "mdi:twitter",
-        url: "https://twitter.com/AtsuoKoizu50448"
+        url: "https://twitter.com/AtsuoKoizu50448",
       },
       {
         id: 2,
         icon: "jam:linkedin",
-        url: "https://www.linkedin.com/in/atsuo-koizumi/"
-      }
-    ]
+        url: "https://www.linkedin.com/in/atsuo-koizumi/",
+      },
+    ],
   },
   // {
   //   id: 5,
@@ -543,57 +543,57 @@ export const PROFILES: Array<IProfileData> = [
 export const varFadeInUp: Variants = {
   hidden: {
     y: -30,
-    opacity: 0
+    opacity: 0,
   },
   visible: {
     y: 0,
     opacity: 1,
     transition: {
-      duration: 0.4
-    }
-  }
+      duration: 0.4,
+    },
+  },
 };
 
 export const varFadeInDown: Variants = {
   hidden: {
     y: 30,
-    opacity: 0
+    opacity: 0,
   },
   visible: {
     y: 0,
     opacity: 1,
     transition: {
-      duration: 0.4
-    }
-  }
+      duration: 0.4,
+    },
+  },
 };
 
 export const varFadeInLeft: Variants = {
   hidden: {
     x: -30,
-    opacity: 0
+    opacity: 0,
   },
   visible: {
     x: 0,
     opacity: 1,
     transition: {
-      duration: 0.4
-    }
-  }
+      duration: 0.4,
+    },
+  },
 };
 
 export const varFadeInRight: Variants = {
   hidden: {
     x: 30,
-    opacity: 0
+    opacity: 0,
   },
   visible: {
     x: 0,
     opacity: 1,
     transition: {
-      duration: 0.4
-    }
-  }
+      duration: 0.4,
+    },
+  },
 };
 
 export const MSG_REQUIRED_FIELD = "Required field.";
@@ -608,8 +608,10 @@ export const WHITELIST_OF_PARTNERS = [
   "0xf983dd6200b3bb4e34cf8bb51803b18e25422948",
   "0xf122670b84de4ca820be6b919347e7dfaa789f0c",
   "0x5e41A9F729836175F35a216E06aF856dE8B7db01",
-  "0xe7A4e3E8742E86D8623e059525c2E8e955746bdB"
+  "0xe7A4e3E8742E86D8623e059525c2E8e955746bdB",
 ];
+
+export const CONTRACT_ADDRESS = "0x972B99eDe570d8E52AbcF24c95337ec2728053DA";
 
 export const CONTRACT_ABI = [
   { inputs: [], stateMutability: "nonpayable", type: "constructor" },
@@ -620,32 +622,32 @@ export const CONTRACT_ABI = [
         indexed: true,
         internalType: "address",
         name: "owner",
-        type: "address"
+        type: "address",
       },
       {
         indexed: true,
         internalType: "address",
         name: "spender",
-        type: "address"
+        type: "address",
       },
       {
         indexed: false,
         internalType: "uint256",
         name: "value",
-        type: "uint256"
-      }
+        type: "uint256",
+      },
     ],
     name: "Approval",
-    type: "event"
+    type: "event",
   },
   { anonymous: false, inputs: [], name: "EnableTrading", type: "event" },
   {
     anonymous: false,
     inputs: [
-      { indexed: false, internalType: "bool", name: "enable", type: "bool" }
+      { indexed: false, internalType: "bool", name: "enable", type: "bool" },
     ],
     name: "EnableWalletToWalletTransferWithoutFee",
-    type: "event"
+    type: "event",
   },
   {
     anonymous: false,
@@ -654,12 +656,17 @@ export const CONTRACT_ABI = [
         indexed: true,
         internalType: "address",
         name: "account",
-        type: "address"
+        type: "address",
       },
-      { indexed: false, internalType: "bool", name: "isExcluded", type: "bool" }
+      {
+        indexed: false,
+        internalType: "bool",
+        name: "isExcluded",
+        type: "bool",
+      },
     ],
     name: "ExcludeFromFees",
-    type: "event"
+    type: "event",
   },
   {
     anonymous: false,
@@ -668,12 +675,17 @@ export const CONTRACT_ABI = [
         indexed: true,
         internalType: "address",
         name: "account",
-        type: "address"
+        type: "address",
       },
-      { indexed: false, internalType: "bool", name: "isExcluded", type: "bool" }
+      {
+        indexed: false,
+        internalType: "bool",
+        name: "isExcluded",
+        type: "bool",
+      },
     ],
     name: "ExcludedFromMaxTransactionLimit",
-    type: "event"
+    type: "event",
   },
   {
     anonymous: false,
@@ -682,17 +694,17 @@ export const CONTRACT_ABI = [
         indexed: false,
         internalType: "uint256",
         name: "buyFee",
-        type: "uint256"
+        type: "uint256",
       },
       {
         indexed: false,
         internalType: "uint256",
         name: "sellFee",
-        type: "uint256"
-      }
+        type: "uint256",
+      },
     ],
     name: "FeesUpdated",
-    type: "event"
+    type: "event",
   },
   {
     anonymous: false,
@@ -701,17 +713,17 @@ export const CONTRACT_ABI = [
         indexed: false,
         internalType: "uint256",
         name: "maxTransferRateBuy",
-        type: "uint256"
+        type: "uint256",
       },
       {
         indexed: false,
         internalType: "uint256",
         name: "maxTransferRateSell",
-        type: "uint256"
-      }
+        type: "uint256",
+      },
     ],
     name: "MaxTransactionLimitRatesChanged",
-    type: "event"
+    type: "event",
   },
   {
     anonymous: false,
@@ -720,11 +732,11 @@ export const CONTRACT_ABI = [
         indexed: false,
         internalType: "bool",
         name: "maxTransactionLimit",
-        type: "bool"
-      }
+        type: "bool",
+      },
     ],
     name: "MaxTransactionLimitStateChanged",
-    type: "event"
+    type: "event",
   },
   {
     anonymous: false,
@@ -733,26 +745,26 @@ export const CONTRACT_ABI = [
         indexed: true,
         internalType: "address",
         name: "previousOwner",
-        type: "address"
+        type: "address",
       },
       {
         indexed: true,
         internalType: "address",
         name: "newOwner",
-        type: "address"
-      }
+        type: "address",
+      },
     ],
     name: "OwnershipTransferred",
-    type: "event"
+    type: "event",
   },
   {
     anonymous: false,
     inputs: [
       { indexed: true, internalType: "address", name: "pair", type: "address" },
-      { indexed: true, internalType: "bool", name: "value", type: "bool" }
+      { indexed: true, internalType: "bool", name: "value", type: "bool" },
     ],
     name: "SetAutomatedMarketMakerPair",
-    type: "event"
+    type: "event",
   },
   {
     anonymous: false,
@@ -761,11 +773,11 @@ export const CONTRACT_ABI = [
         indexed: false,
         internalType: "bytes32",
         name: "merkleRoot",
-        type: "bytes32"
-      }
+        type: "bytes32",
+      },
     ],
     name: "SetMerkleRootOfPartners",
-    type: "event"
+    type: "event",
   },
   {
     anonymous: false,
@@ -774,11 +786,11 @@ export const CONTRACT_ABI = [
         indexed: false,
         internalType: "uint256",
         name: "amount",
-        type: "uint256"
-      }
+        type: "uint256",
+      },
     ],
     name: "SetSwappableTokenAmountAtOnce",
-    type: "event"
+    type: "event",
   },
   {
     anonymous: false,
@@ -787,17 +799,17 @@ export const CONTRACT_ABI = [
         indexed: false,
         internalType: "uint256",
         name: "tokenAmount",
-        type: "uint256"
+        type: "uint256",
       },
       {
         indexed: false,
         internalType: "uint256",
         name: "ethAmount",
-        type: "uint256"
-      }
+        type: "uint256",
+      },
     ],
     name: "SwapTokenAndSendEthToWallet",
-    type: "event"
+    type: "event",
   },
   {
     anonymous: false,
@@ -808,11 +820,11 @@ export const CONTRACT_ABI = [
         indexed: false,
         internalType: "uint256",
         name: "value",
-        type: "uint256"
-      }
+        type: "uint256",
+      },
     ],
     name: "Transfer",
-    type: "event"
+    type: "event",
   },
   {
     anonymous: false,
@@ -821,11 +833,11 @@ export const CONTRACT_ABI = [
         indexed: false,
         internalType: "address",
         name: "marketingWallet",
-        type: "address"
-      }
+        type: "address",
+      },
     ],
     name: "WalletOfFundChanged",
-    type: "event"
+    type: "event",
   },
   {
     anonymous: false,
@@ -834,544 +846,548 @@ export const CONTRACT_ABI = [
         indexed: false,
         internalType: "address",
         name: "toWallet",
-        type: "address"
-      }
+        type: "address",
+      },
     ],
     name: "Withdraw",
-    type: "event"
+    type: "event",
   },
   {
     inputs: [],
     name: "INIT_TOTAL_SUPPLY",
     outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "SHARE_OF_COMMUNITY",
     outputs: [{ internalType: "uint8", name: "", type: "uint8" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "SHARE_OF_ECOSYSTEM",
     outputs: [{ internalType: "uint8", name: "", type: "uint8" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "SHARE_OF_FOUNDERS",
     outputs: [{ internalType: "uint8", name: "", type: "uint8" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "SHARE_OF_LISTING",
     outputs: [{ internalType: "uint8", name: "", type: "uint8" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "SHARE_OF_MARKETING",
     outputs: [{ internalType: "uint8", name: "", type: "uint8" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "SHARE_OF_PARTNERS",
     outputs: [{ internalType: "uint8", name: "", type: "uint8" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "SHARE_OF_PRIVATE_SALE",
     outputs: [{ internalType: "uint16", name: "", type: "uint16" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "SHARE_OF_PUBLIC_SALE",
     outputs: [{ internalType: "uint8", name: "", type: "uint8" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [
       { internalType: "address", name: "owner", type: "address" },
-      { internalType: "address", name: "spender", type: "address" }
+      { internalType: "address", name: "spender", type: "address" },
     ],
     name: "allowance",
     outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [
       { internalType: "address", name: "spender", type: "address" },
-      { internalType: "uint256", name: "amount", type: "uint256" }
+      { internalType: "uint256", name: "amount", type: "uint256" },
     ],
     name: "approve",
     outputs: [{ internalType: "bool", name: "", type: "bool" }],
     stateMutability: "nonpayable",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [{ internalType: "address", name: "", type: "address" }],
     name: "automatedMarketMakerPairs",
     outputs: [{ internalType: "bool", name: "", type: "bool" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [{ internalType: "address", name: "account", type: "address" }],
     name: "balanceOf",
     outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "buyFee",
     outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [
-      { internalType: "address", name: "_walletOfFund", type: "address" }
+      { internalType: "address", name: "_walletOfFund", type: "address" },
     ],
     name: "changeWalletOfFund",
     outputs: [],
     stateMutability: "nonpayable",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "decimals",
     outputs: [{ internalType: "uint8", name: "", type: "uint8" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [
       { internalType: "address", name: "spender", type: "address" },
-      { internalType: "uint256", name: "subtractedValue", type: "uint256" }
+      { internalType: "uint256", name: "subtractedValue", type: "uint256" },
     ],
     name: "decreaseAllowance",
     outputs: [{ internalType: "bool", name: "", type: "bool" }],
     stateMutability: "nonpayable",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "enableTrading",
     outputs: [],
     stateMutability: "nonpayable",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [{ internalType: "bool", name: "enable", type: "bool" }],
     name: "enableWalletToWalletTransferWithoutFee",
     outputs: [],
     stateMutability: "nonpayable",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [
       { internalType: "address", name: "account", type: "address" },
-      { internalType: "bool", name: "excluded", type: "bool" }
+      { internalType: "bool", name: "excluded", type: "bool" },
     ],
     name: "excludeFromFees",
     outputs: [],
     stateMutability: "nonpayable",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [
       { internalType: "address", name: "spender", type: "address" },
-      { internalType: "uint256", name: "addedValue", type: "uint256" }
+      { internalType: "uint256", name: "addedValue", type: "uint256" },
     ],
     name: "increaseAllowance",
     outputs: [{ internalType: "bool", name: "", type: "bool" }],
     stateMutability: "nonpayable",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [{ internalType: "address", name: "account", type: "address" }],
     name: "isExcludedFromFees",
     outputs: [{ internalType: "bool", name: "", type: "bool" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [{ internalType: "address", name: "account", type: "address" }],
     name: "isExcludedFromMaxTransaction",
     outputs: [{ internalType: "bool", name: "", type: "bool" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "maxTransactionLimitEnabled",
     outputs: [{ internalType: "bool", name: "", type: "bool" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "maxTransferAmount",
     outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "maxTransferAmountBuy",
     outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "merkleRootOfPartners",
     outputs: [{ internalType: "bytes32", name: "", type: "bytes32" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [
       { internalType: "address", name: "ownerWallet", type: "address" },
-      { internalType: "uint256", name: "amount", type: "uint256" }
+      { internalType: "uint256", name: "amount", type: "uint256" },
     ],
     name: "mint",
     outputs: [],
     stateMutability: "nonpayable",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [
       { internalType: "bytes32[]", name: "merkleProof", type: "bytes32[]" },
-      { internalType: "uint256", name: "amount", type: "uint256" }
+      { internalType: "uint256", name: "amount", type: "uint256" },
     ],
     name: "mintForPartners",
     outputs: [],
     stateMutability: "payable",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "mintableTokenAmountForFounders",
     outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "mintableTokenAmountForPartners",
     outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "mintableTokenAmountForPrivate",
     outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "mintableTokenAmountForPublic",
     outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "name",
     outputs: [{ internalType: "string", name: "", type: "string" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "owner",
     outputs: [{ internalType: "address", name: "", type: "address" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [{ internalType: "uint256", name: "amount", type: "uint256" }],
     name: "privateSale",
     outputs: [],
     stateMutability: "payable",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [{ internalType: "uint256", name: "amount", type: "uint256" }],
     name: "publicSale",
     outputs: [],
     stateMutability: "payable",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "renounceOwnership",
     outputs: [],
     stateMutability: "nonpayable",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "sellFee",
     outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [{ internalType: "bool", name: "enable", type: "bool" }],
     name: "setEnableMaxTransactionLimit",
     outputs: [],
     stateMutability: "nonpayable",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [
       { internalType: "address", name: "account", type: "address" },
-      { internalType: "bool", name: "exclude", type: "bool" }
+      { internalType: "bool", name: "exclude", type: "bool" },
     ],
     name: "setExcludeFromMaxTransactionLimit",
     outputs: [],
     stateMutability: "nonpayable",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [
       {
         internalType: "uint256",
         name: "_maxTransactionRateBuy",
-        type: "uint256"
+        type: "uint256",
       },
       {
         internalType: "uint256",
         name: "_maxTransactionRateSell",
-        type: "uint256"
-      }
+        type: "uint256",
+      },
     ],
     name: "setMaxTransactionRates",
     outputs: [],
     stateMutability: "nonpayable",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [
       {
         internalType: "bytes32",
         name: "_merkleRootOfPartners",
-        type: "bytes32"
-      }
+        type: "bytes32",
+      },
     ],
     name: "setMerkleRootOfPartners",
     outputs: [],
     stateMutability: "nonpayable",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [{ internalType: "uint256", name: "newAmount", type: "uint256" }],
     name: "setSwappableTokenAmountAtOnce",
     outputs: [],
     stateMutability: "nonpayable",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "swappableTokenAmountAtOnce",
     outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "symbol",
     outputs: [{ internalType: "string", name: "", type: "string" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "tokenPriceForPartners",
     outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "tokenPriceForPrivate",
     outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "tokenPriceForPublic",
     outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "totalSupply",
     outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "tradingEnabled",
     outputs: [{ internalType: "bool", name: "", type: "bool" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [
       { internalType: "address", name: "to", type: "address" },
-      { internalType: "uint256", name: "amount", type: "uint256" }
+      { internalType: "uint256", name: "amount", type: "uint256" },
     ],
     name: "transfer",
     outputs: [{ internalType: "bool", name: "", type: "bool" }],
     stateMutability: "nonpayable",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [
       { internalType: "address", name: "from", type: "address" },
       { internalType: "address", name: "to", type: "address" },
-      { internalType: "uint256", name: "amount", type: "uint256" }
+      { internalType: "uint256", name: "amount", type: "uint256" },
     ],
     name: "transferFrom",
     outputs: [{ internalType: "bool", name: "", type: "bool" }],
     stateMutability: "nonpayable",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [{ internalType: "address", name: "newOwner", type: "address" }],
     name: "transferOwnership",
     outputs: [],
     stateMutability: "nonpayable",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "uniswapV2Pair",
     outputs: [{ internalType: "address", name: "", type: "address" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "uniswapV2Router",
     outputs: [
-      { internalType: "contract IUniswapV2Router02", name: "", type: "address" }
+      {
+        internalType: "contract IUniswapV2Router02",
+        name: "",
+        type: "address",
+      },
     ],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [
       { internalType: "uint256", name: "_buyFee", type: "uint256" },
-      { internalType: "uint256", name: "_sellFee", type: "uint256" }
+      { internalType: "uint256", name: "_sellFee", type: "uint256" },
     ],
     name: "updateFees",
     outputs: [],
     stateMutability: "nonpayable",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "walletOfCommunity",
     outputs: [{ internalType: "address", name: "", type: "address" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "walletOfEcosystem",
     outputs: [{ internalType: "address", name: "", type: "address" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "walletOfFounder1",
     outputs: [{ internalType: "address", name: "", type: "address" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "walletOfFounder2",
     outputs: [{ internalType: "address", name: "", type: "address" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "walletOfFounder3",
     outputs: [{ internalType: "address", name: "", type: "address" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "walletOfFund",
     outputs: [{ internalType: "address", name: "", type: "address" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "walletOfListing",
     outputs: [{ internalType: "address", name: "", type: "address" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "walletOfMarketing",
     outputs: [{ internalType: "address", name: "", type: "address" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "walletOfOwner",
     outputs: [{ internalType: "address", name: "", type: "address" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [],
     name: "walletToWalletTransferWithoutFee",
     outputs: [{ internalType: "bool", name: "", type: "bool" }],
     stateMutability: "view",
-    type: "function"
+    type: "function",
   },
   {
     inputs: [{ internalType: "address", name: "ownerWallet", type: "address" }],
     name: "withdraw",
     outputs: [],
     stateMutability: "nonpayable",
-    type: "function"
+    type: "function",
   },
-  { stateMutability: "payable", type: "receive" }
+  { stateMutability: "payable", type: "receive" },
 ];
 
 export const NUMBER_OF_PURCHASED_TOKENS_BY_CASH = 28075714;
