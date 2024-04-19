@@ -463,12 +463,12 @@ export const PROFILES: Array<IProfileData> = [
       {
         id: 1,
         icon: "mdi:twitter",
-        url: "https://twitter.com/WaldenirMoreira",
+        url: "https://twitter.com/waldenirmsilva1",
       },
       {
         id: 2,
         icon: "jam:linkedin",
-        url: "https://www.linkedin.com/in/waldenir-moreira-b6320290/",
+        url: "https://www.linkedin.com/in/moreira-moreira-73a114280/",
       },
     ],
   },
