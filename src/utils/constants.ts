@@ -511,7 +511,13 @@ export const PROFILES: Array<IProfileData> = [
     position: "Software Engineer",
     bio: "",
     imgSrc: "/assets/images/team_sd.jpg",
-    socialLinks: [],
+    socialLinks: [
+      {
+        id: 1,
+        icon: "mdi:github",
+        url: "https://github.com/mavsin",
+      },
+    ],
   },
   // {
   //   id: 5,
