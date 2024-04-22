@@ -511,18 +511,7 @@ export const PROFILES: Array<IProfileData> = [
     position: "Software Engineer",
     bio: "",
     imgSrc: "/assets/images/team_sd.jpg",
-    socialLinks: [
-      {
-        id: 1,
-        icon: "mdi:twitter",
-        url: "https://twitter.com/AtsuoKoizu50448",
-      },
-      {
-        id: 2,
-        icon: "jam:linkedin",
-        url: "https://www.linkedin.com/in/atsuo-koizumi/",
-      },
-    ],
+    socialLinks: [],
   },
   // {
   //   id: 5,
