@@ -88,3 +88,11 @@ export interface IImage {
   id: number;
   imgSrc: string;
 }
+
+export interface INewsLink {
+  id: number;
+  url: string;
+  imgSrc: string;
+  imgClassName: string;
+  imgAlt: string;
+}

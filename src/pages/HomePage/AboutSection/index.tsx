@@ -1,4 +1,4 @@
-import React, { lazy } from "react";
+import { lazy } from "react";
 import { Icon } from "@iconify/react";
 import Container from "../../../components/Container";
 import TinyDashedBar from "../../../components/TinyDashedBar";

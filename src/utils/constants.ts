@@ -3,6 +3,7 @@ import {
   ILearnData,
   INavButton,
   INavLink,
+  INewsLink,
   IProfileData,
   IServiceData,
   ISocialLink,
@@ -533,6 +534,86 @@ export const PROFILES: Array<IProfileData> = [
   //     }
   //   ]
   // }
+];
+
+export const NEWS_LINKS: Array<INewsLink> = [
+  {
+    id: 1,
+    url: "https://www.newsbtc.com/press-releases/green-planet-eco-the-future-is-calling-us-join-our-pre-sale-today/",
+    imgSrc: "/assets/images/news_logo_btc.png",
+    imgAlt: "news btc",
+    imgClassName: "w-56",
+  },
+  {
+    id: 2,
+    url: "https://icolink.com/ico-green-planet-eco.html",
+    imgSrc: "/assets/images/news_logo_iconlink.png",
+    imgAlt: "iconlink",
+    imgClassName: "w-32",
+  },
+  {
+    id: 3,
+    url: "https://coinsniper.net/coin/47865",
+    imgSrc: "/assets/images/news_logo_coinsniper.png",
+    imgAlt: "coinsniper",
+    imgClassName: "w-56",
+  },
+  {
+    id: 4,
+    url: "https://medium.com/@giving_flirt_porcupine_407/green-planet-eco-the-future-is-calling-us-join-our-pre-sale-today-2c15414885ec",
+    imgSrc: "/assets/images/news_logo_medium.png",
+    imgAlt: "medium",
+    imgClassName: "w-56",
+  },
+  {
+    id: 5,
+    url: "https://steemit.com/cryptocurrency/@greenplaneteco/4xkdrs-green-planet-eco-the-future-is-calling-us-join-our-pre-sale-today",
+    imgSrc: "/assets/images/news_logo_steemit.png",
+    imgAlt: "steemit",
+    imgClassName: "w-56",
+  },
+  {
+    id: 6,
+    url: "https://coincodex.com/ico/green-planet-eco",
+    imgSrc: "/assets/images/news_logo_coincodex.png",
+    imgAlt: "coincodex",
+    imgClassName: "w-56",
+  },
+  {
+    id: 7,
+    url: "https://coinpedia.org/press-release/green-planet-eco-the-future-is-calling-us-join-our-pre-sale-today/",
+    imgSrc: "/assets/images/news_logo_coinpedia.png",
+    imgAlt: "coinpedia",
+    imgClassName: "w-48",
+  },
+  {
+    id: 8,
+    url: "https://cointelegraph.com/press-releases/green-planet-announces-eco-token-listing-on-p2b-crypto-exchange",
+    imgSrc: "/assets/images/news_logo_cointelegraph.png",
+    imgAlt: "cointelegraph",
+    imgClassName: "w-64",
+  },
+  {
+    id: 9,
+    url: "https://www.oneplanetnetwork.org/members-directory/member/17091",
+    imgSrc: "/assets/images/news_logo_oneplanet.png",
+    imgAlt: "One Planet",
+    imgClassName: "w-72",
+  },
+  {
+    id: 10,
+    url: "https://icoholder.com/en/interview/make-the-earth-better-with-green-planet-eco",
+    imgSrc: "/assets/images/news_logo_icoholder.png",
+    imgAlt: "icoholder",
+    imgClassName: "w-48",
+  },
+  {
+    id: 11,
+    url: "https://cryptoexpodubai.com/partners/",
+    imgSrc: "/assets/images/news_logo_cryptoexpo.png",
+    imgAlt: "crypto expo",
+    imgClassName: "w-56",
+  },
 ];
 
 export const varFadeInUp: Variants = {
