@@ -17,8 +17,8 @@ export const SOCIAL_LINKS: Array<ISocialLink> = [
   },
   {
     id: 2,
-    icon: "mdi:twitter",
-    url: "https://twitter.com/GreenPlanettoke",
+    icon: "prime:twitter",
+    url: "https://twitter.com/greenplanet_eco",
   },
   {
     id: 3,
@@ -463,7 +463,7 @@ export const PROFILES: Array<IProfileData> = [
     socialLinks: [
       {
         id: 1,
-        icon: "mdi:twitter",
+        icon: "prime:twitter",
         url: "https://twitter.com/waldenirmsilva1",
       },
       {
@@ -482,8 +482,8 @@ export const PROFILES: Array<IProfileData> = [
     socialLinks: [
       {
         id: 1,
-        icon: "mdi:twitter",
-        url: "https://twitter.com/thaynarasilvanz",
+        icon: "prime:twitter",
+        url: "https://twitter.com/ThaynaraWa39668",
       },
     ],
   },
@@ -496,7 +496,7 @@ export const PROFILES: Array<IProfileData> = [
     socialLinks: [
       {
         id: 1,
-        icon: "mdi:twitter",
+        icon: "prime:twitter",
         url: "https://twitter.com/luanasouza_MK",
       },
       {
@@ -529,7 +529,7 @@ export const PROFILES: Array<IProfileData> = [
   //   socialLinks: [
   //     {
   //       id: 1,
-  //       icon: "mdi:twitter",
+  //       icon: "prime:twitter",
   //       url: "https://twitter.com/"
   //     }
   //   ]
