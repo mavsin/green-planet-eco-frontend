@@ -7,7 +7,6 @@ const LandingLayout = lazy(() => import('./layouts/LandingLayout'))
 const HomePage = lazy(() => import('./pages/HomePage'))
 const LearnPage = lazy(() => import('./pages/LearnPage'))
 const LearnItemPage = lazy(() => import('./pages/LearnItemPage'))
-const EventsPage = lazy(() => import('./pages/CarbonCreditPage'))
 const PortfolioPage = lazy(() => import('./pages/PortfolioPage'))
 const NewsPage = lazy(() => import('./pages/NewsPage'))
 const ContactUsPage = lazy(() => import('./pages/ContactUsPage'))
@@ -19,6 +18,7 @@ const OurTeamPage = lazy(() => import('./pages/about/OurTeamPage'))
 const TestimonialsPage = lazy(() => import('./pages/about/TestimonialsPage'))
 const FaqPage = lazy(() => import('./pages/about/FaqPage'))
 const NoPage = lazy(() => import('./pages/NoPage'))
+const CarbonCreditsPage = lazy(() => import('./pages/CarbonCreditsPage'));
 
 // --------------------------------------------------------------------------------------
 
@@ -40,8 +40,8 @@ export default function Routes() {
           element: <LearnItemPage />
         },
         {
-          path: '/carbon-credit',
-          element: <EventsPage />
+          path: '/carbon-credits',
+          element: <CarbonCreditsPage />
         },
         {
           path: '/portfolio',
