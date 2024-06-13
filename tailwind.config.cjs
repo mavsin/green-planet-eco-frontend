@@ -15,6 +15,7 @@ module.exports = withMT({
         warning: '',
         error: ''
       },
+      borderColor: ['focus'],
       fontFamily: {
         sans: ['Open Sans', 'sans-serif']
       }
