@@ -133,3 +133,7 @@
 #shadow-root .ctk-m-1 {
   margin: 0px;
 }
+
+.auth-input:active {
+  border-color: aquamarine;
+}
