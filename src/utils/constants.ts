@@ -140,11 +140,6 @@ export const NAV_LINKS: Array<INavLink> = [
     label: "Contact us",
     path: "/contact-us",
   },
-  {
-    id: 8,
-    label: "Log In",
-    path: "/login",
-  },
 ];
 
 export const SERVICES: Array<IServiceData> = [
