@@ -1,7 +1,6 @@
 import { Variants } from "framer-motion";
 import {
   ILearnData,
-  IMembership,
   INavButton,
   INavLink,
   INewsLink,
@@ -72,12 +71,6 @@ export const NAV_LINKS: Array<INavLink> = [
     label: "About",
     children: [
       {
-        id: 8,
-        label: "Carbon Credit",
-        path: "/assets/documents/Green Planet Eco - Credit Carbon.pdf",
-        isLinkToOutside: true,
-      },
-      {
         id: 7,
         label: "Token",
         path: "/about/token",
@@ -121,8 +114,9 @@ export const NAV_LINKS: Array<INavLink> = [
   },
   {
     id: 4,
-    label: "Carbon Credits",
-    path: "/carbon-credits",
+    label: "Carbon Credit",
+    path: "/assets/documents/Green Planet Eco - Credit Carbon.pdf",
+    isLinkToOutside: true,
   },
   {
     id: 5,
