@@ -1,3 +1,6 @@
+import { Dispatch, DispatchWithoutAction, SetStateAction } from "react";
+import { TSizeOfDialog } from "./types";
+
 export interface ISocialLink {
   id: number;
   icon: string;
@@ -95,4 +98,20 @@ export interface INewsLink {
   imgSrc: string;
   imgClassName: string;
   imgAlt: string;
+}
+
+export interface IDialog {
+  opened: boolean;
+  setOpened: Dispatch<SetStateAction<boolean>>;
+}
+
+export interface IMembership {
+  id: number;
+  title: string;
+  description: string;
+  price: number;
+}
+
+export interface IHandlers {
+  [key: string]: Function;
 }
